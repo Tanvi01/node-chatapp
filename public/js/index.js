@@ -8,7 +8,7 @@ var socket=io();
 
 });
    socket.on('newMessage',function(message){
-   	console.log(message);
+   	console.log('new message',message);
    });
 
    
